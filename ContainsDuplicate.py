@@ -1,11 +1,11 @@
 class Solution:
     def hasDuplicate(self, nums : list[int]) -> bool:
-        hashset = set()
+        hashSet = set()
 
         for num in nums:
-            if num in hashset:
+            if num in hashSet:
                 return True
-            hashset.add(num)
+            hashSet.add(num)
         return False
     
 
